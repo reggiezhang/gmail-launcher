@@ -1,0 +1,21 @@
+{
+  "name": "Outlook.com Launcher",
+  "version": "0.2.2",
+  "manifest_version": 2,
+  "description": "Open outlook.com",
+  "browser_action": {
+    "default_title": "Open outlook.com",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "tabs"
+   ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
